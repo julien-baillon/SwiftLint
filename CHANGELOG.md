@@ -10,6 +10,10 @@
 
 #### Enhancements
 
+* Prevent from compiling `SwiftLint` target when only using `SwiftLintPlugin` on macOS.
+  [Julien Baillon](https://github.com/julien-baillon)
+  [#5372](https://github.com/realm/SwiftLint/issues/5372)
+
 * Add new `one_declaration_per_file` rule that allows only a
   single class/struct/enum/protocol declaration per file.
   Extensions are an exception; more than one is allowed.  
